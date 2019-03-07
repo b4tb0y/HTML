@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" />
+        <title>Excercise 3</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    </head>
+    <body>
+        <h1>Room reservation form</h1>
+        <br>
+        <form>
+            <table>
+                <tr>
+                    <td class="izquierda">Your Name: <span>*</span></td>
+                    <td class="derecha"><input type="text" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <td class="izquierda2">Your E-Mail: <span>*</span></td>
+                    <td class="derecha2"><input type="text" placeholder="E-mail"></td>
+                </tr>
+                <tr>
+                    <td class="izquierda">Department: <span>*</span>
+                    </td>
+                    <td class="derecha">   <select>
+                                <option>Sales</option>
+                                <option>Repairs</option>
+                                <option>Telephony</option>
+                            </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="izquierda2">Type of room you want to book: <span>*</span> 
+                            <td class="derecha2"><input type="radio" name="tipo" value="male" checked>Type A<br>
+                            <input type="radio" name="tipo" value="female">Type B<br>
+                            <input type="radio" name="tipo" value="other">Type C<br> 
+                            </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="izquierda">Extra Requirements: <br>
+                        <td class="derecha">
+                             <input type="checkbox">Easel and boligraph<br>
+                             <input type="checkbox">TV<br>
+                             <input type="checkbox">Cafe, tea and water
+                        </td>
+                    </td>
+                </tr> 
+                <tr>
+                    <td class="izquierda2">Reservation date: <span>*</span>
+                        <td class="derecha2">
+                             <input type="date" placeholder="31/mm/aaaa">
+                        </td>
+                    </td>
+                </tr>  
+                <tr>
+                    <td class="izquierda">Reservation time: <span>*</span>
+                        <td class="derecha">
+                             <input type="time">
+                        </td>
+                    </td>
+                </tr>
+                    
+        </form>
+    </body>
+    </html>

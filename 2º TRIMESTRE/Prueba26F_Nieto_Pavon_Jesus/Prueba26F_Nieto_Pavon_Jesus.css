@@ -1,0 +1,148 @@
+.general {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+    grid-gap: 5px;
+    border: 5px solid red;
+}
+
+.grid1{
+    border: solid 5px green;
+    grid-column: 1 / 2;
+    grid-row: 1;
+    font-size: 20px;
+}
+
+/* hacer el punto verde */
+
+.grid2{
+    border: solid 5px pink;
+    grid-column: 2 / 4;
+    grid-row: 1;
+    font-size: 10px;
+    color: #777777;
+}
+
+.grid3{
+    border: solid 5px purple;
+    grid-column: 8 / 10;
+    grid-row: 2;
+    font-size: 10px;
+}
+.grid4{
+    border: 5px solid orangered;
+    grid-column: 10 / 11 ;
+    grid-row: 2;
+    font-size: 10px
+}
+
+
+.menu {
+    border: 5px solid purple;
+    color: white;
+    background-color: 303030;   
+    height: 50px;
+}
+
+.submenu1{
+    float: left;
+}
+
+.submenu2 {
+    float: left;
+}
+
+.submenu3 {
+    float: left;
+}
+
+.submenu4 {
+    float: left;
+}
+.submenu5 {
+    float: left;
+}
+
+.cuadro_busqueda {
+    float: right;
+    background-color: white;
+    border: 1px solid red;
+    
+}
+
+.busqueda_menu{
+    float: right;
+}
+
+.content {
+    border: 5px solid green;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid blue;
+    width: 15%;
+}
+
+.left :nth-of-type(1n+3) {
+    border: 2px dashed;
+}
+
+.center {
+    border: 5px solid orange;
+    width: 70%;
+}
+
+.titulo_float{
+    border: 5px solid orangered;
+    float: right
+}
+
+.descripcion_float{
+    border: 5px solid yellow;
+    float: left;
+}
+
+.castillo{
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.right :nth-last-of-type(2){
+    border: 2px dashed;;
+}
+
+/*hacer bien los bordes */
+
+.footer {
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagen_footer{
+    float: left;
+}
+
+.titulo_footer{
+    font-size: 20px;
+}
+
+.descripcion_footer{
+    font-size: 10px;
+}

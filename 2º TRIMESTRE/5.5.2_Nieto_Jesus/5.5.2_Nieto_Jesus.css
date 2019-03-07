@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: PaleGreen;
+    border-bottom: 10px solid green;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.menu img {
+    float: right;
+}
+
+.sidebar {
+    border: 1px dashed black;
+    float: left;
+    padding-top: 15px;
+    width: 10%;
+    margin-top: 100px;
+    position: fixed;
+}
+
+.content {
+    float: left;
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 129px;
+}
+
+.container {
+    background-color: paleturquoise;
+    overflow: hidden;
+}
+
+.page {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.capital {
+    border-left: 10px solid green;
+    border-right: 10px solid green;
+    padding: 5px 15px 5px 15px;
+}
+
+.capital:nth-of-type(odd) {
+    background-color: LimeGreen;
+}
+
+.capital:nth-of-type(even) {
+    background-color: PaleGreen;
+}
+
+img {
+    width: 150px;
+}
+
+.capital:nth-of-type(odd) img {
+    float: left;
+    margin-right: 15px;
+}
+
+.capital:nth-of-type(even) img {
+    float: right;
+    margin-left: 15px;
+}
+
+p {
+    overflow: hidden;
+    text-align: justify;
+}
+
+.footer {
+    border-top: 10px solid green;
+    clear: both;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.anchor {
+    position: relative;
+    top: -110px;
+    visibility:hidden;
+    }

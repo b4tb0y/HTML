@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+    .cursiva{
+        font-style: italic;
+    }
+    div{
+        margin: auto;
+    }    
+    div.tabla1{
+        color: white;
+        background: rgb(56, 56, 255);
+        border: 2px solid grey;
+        border-radius: 5px;
+        width: 18.25%;
+        height: 80%;
+        padding: 1.5%;
+        box-sizing: content-box;
+        text-align: center;        
+    }
+    div.tabla2{
+        color: white;
+        background: rgb(56, 56, 255);
+        border: 2px solid grey;
+        border-radius: 5px;
+        width: 21.5%;
+        height: 80%;
+        padding: 1.5%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+    <h1>Box-sizing property</h1>    
+    <div class="tabla1">Box with box-sizing: <em class="cursiva"> content-box </em> </div>
+    <br>
+    <div class="tabla2">Box with box-sizing: <em class="cursiva"> border-box </em> </div>
+    
+</body>
+</html>
+
+<!--
+La diferencia entre usar "px" y "%" está en el tamaño. 
+Al indicar px hacemos referencia a los pixeles exactos que deseamos que ocupe en la pantalla; 
+mientras que si le indicamos "%" este se adapta al tamaño de la página.
+(esto se suele ver implementado en el desarrollo multiplataforma para dispositivos portátiles)
+ -->

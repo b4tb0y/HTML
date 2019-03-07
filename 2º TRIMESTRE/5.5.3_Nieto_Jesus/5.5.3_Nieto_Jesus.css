@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+.fondo {
+position: relative;
+display: inline-block;
+border: 5px solid red;
+font-weight: bold;
+}
+
+img{
+ opacity: 0.4;
+}
+
+.topleft{
+    position: absolute;
+    top: 5%;
+    left: 1%;
+}
+
+.topright{
+    position: absolute;
+    top: 5%;
+    right: 1%
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 5%;
+    left: 1%;
+}
+
+.bottomright{
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+}
+

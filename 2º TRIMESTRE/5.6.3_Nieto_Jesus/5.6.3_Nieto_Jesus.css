@@ -1,0 +1,48 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.fakeistagramxd{
+    width: 70%;
+    margin: 20px;
+}
+
+.usuarios{
+    background-color: white;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.usuario{
+    display: flex;
+    padding: 10px 5px;
+}
+
+
+.imagen{
+    flex-shrink: 0;
+    height: 80px;
+}
+.imagen img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.info{
+    flex-grow: 1;
+    padding: 0 20px;
+}
+.info h4{
+    margin: 0;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.info p{
+    margin-top: 5px;
+    color: gray;
+    margin-bottom: 0;
+}

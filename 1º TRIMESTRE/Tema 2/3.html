@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <h1>Formulario de reserva de salas</h1>
+    <br>
+    <form>
+        <table>
+            <tr>
+                <td class="izquierda">Tu nombre:<br> <input type="text" placeholder="nombre"> </td>
+            </tr>
+            <tr>
+                <td class="izquierda2">Tu correo electrónico:<br><input type="text" placeholder="email"></td>
+            </tr>
+            <tr>
+                <td class="izquierda">Departamento:<br>
+                    <select>
+                        <option>Ventas</option>
+                        <option>Reparaciones</option>
+                        <option>B2B</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="izquierda2">Tipo de sala que desea reservar:<br>
+                        <input type="radio" name="tipo" value="male" checked>   Tipo A<br>
+                        <input type="radio" name="tipo" value="female"> Tipo B<br>
+                        <input type="radio" name="tipo" value="other"> Tipo C 
+                </td>
+            </tr>
+            <tr>
+                <td class="izquierda">Requisitos extra:<br>
+                    <input type="checkbox">Caballete y bolígrafos<br>
+                    <input type="checkbox">Televisión<br>
+                    <input type="checkbox">Café, té y agua
+                </td>
+            </tr> 
+            <tr>
+                <td class="izquierda2">Fecha de la reserva: <br>
+                    <input type="date" placeholder="31/mm/aaaa">
+                </td>
+            </tr>  
+            <tr>
+                <td class="izquierda">Hora de la reserva:<br>
+                <input type="time">
+                </td>
+            </tr>
+                
+    </form>
+</body>
+</html>

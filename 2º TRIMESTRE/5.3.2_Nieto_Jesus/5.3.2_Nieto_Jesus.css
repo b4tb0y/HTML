@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+.header{
+    border: 5px solid blue;
+    text-align:center;
+    margin: 1% auto;
+    width: 80%;
+    padding: 1%;
+    background-image: url(http://hidroblog.com/wp-content/uploads/2016/07/De-d%C3%B3nde-viene-el-agua-del-mar.jpg);
+    background-size: 50%;
+    background-repeat: round;
+}
+.content{
+    border: 5px dashed black;
+    width: 80%;
+    margin: 1% auto;
+    padding: 1%;
+  
+}
+.card{
+    display: inline-block;
+    width: 20%;
+    margin: 2%;
+    padding: 2%;
+    font-weight: bold;
+}
+.card:nth-last-child(3n+1){
+    background-color: lime;
+    border: 5px solid green
+}
+.card:nth-last-of-type(3n){
+    border: 5px solid purple;
+    background-color: pink;
+}
+.card:nth-last-child(3n+2){
+    border: 5px solid orange;
+    background-color: rgb(238, 255, 0);
+    
+    /*Aquí le di este color amarillento
+    de forma manual para que se 
+    pareciese más al ejercicio*/
+}

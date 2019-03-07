@@ -1,0 +1,47 @@
+.main {
+    width: 100%;
+    height: 100%;
+
+}
+.header{
+    /* border: 5px solid blue; */
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+}
+.content{
+    background-color: yellow;
+    display: flex; 
+    flex-direction: row;
+    height: 400px;
+    width: 100%; 
+}
+.leftbar{
+    border: 5px solid red;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.izquierda{
+    border: 5px solid red;
+    width: 100%;
+    height: 100%;
+}
+.main_content{
+    width: 80%;
+    border: 5px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.derecha{
+    border: solid green;
+    width: 100%;
+    height: 100%;
+}
+
+
+

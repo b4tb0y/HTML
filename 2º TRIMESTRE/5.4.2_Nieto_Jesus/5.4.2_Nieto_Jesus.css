@@ -1,0 +1,70 @@
+* {
+   box-sizing: border-box;     
+}
+.contenedor{
+    border: 5px solid green;
+}
+.superior{
+background-color: palegreen;
+border-bottom: 10%;
+overflow: hidden;
+}
+
+.superior img{
+float: right;
+}
+
+.izquierda{
+    float: left;
+    background-color: paleturquoise;
+    height: 523%;
+    width: 25%;
+    border: solid 5px green;
+}
+.hipervinculos{
+    border: 1px dashed black;
+    float: right;
+    text-align: left;
+    padding-top: 3%;
+}
+.derecha{
+    float: right;
+    background-color: paleturquoise;
+    height: 523%;
+    width: 25%;
+    border: solid 5px green;
+}
+.centro{
+    border: 5px solid green;
+    
+
+}
+
+img{
+    width: 10%;
+}
+
+.capital{
+    background-color: limegreen;
+    padding: 1%;
+    
+}
+
+.capital:nth-last-child(2n+1){
+    background-color: palegreen;  
+    padding: 1%; 
+     
+}
+
+.capital:nth-of-type(odd) img{
+    float:left;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+}
+.capital:nth-of-type(even) img{
+    float: right;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+}

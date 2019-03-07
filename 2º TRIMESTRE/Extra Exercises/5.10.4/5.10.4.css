@@ -1,0 +1,89 @@
+.general{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    border: 5px solid black;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.logo {
+    width: 5%;
+    height: 5%;
+}
+
+.header_font{
+    padding: 5px;
+    color: gray;
+}
+
+.header :nth-last-of-type(2){
+    color: white;
+}
+
+.header :nth-child(2){
+    border: 5px purple; /* terminar */
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.titulo1{
+    font-size: 25px;
+}
+
+.titulo2{
+        padding: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.submenu{
+    /*border: 5px solid green;*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+
+}
+
+.titulo_menu{
+    color: cornflowerblue;
+    padding: 1%;
+    font-size: 25px;
+}
+
+.descripcion_menu{
+    padding: 1%
+}
+
+.submenu_foto{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    border: 5px solid rgb(59, 170, 214);
+    background-color: rgb(59, 170, 214);
+}
+
+.stuf_titulo{
+    font-size: 50px;
+    color: blue;
+}
